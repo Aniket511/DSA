@@ -40,6 +40,7 @@ class Codec:
         return dfs()
 
 
+from collections import deque
 class Codec:
 
     # Encodes a tree to a single string.

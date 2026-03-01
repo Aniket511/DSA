@@ -50,6 +50,7 @@ class Solution:
 
         return result
 
+from collections import deque
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
 

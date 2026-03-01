@@ -26,6 +26,7 @@ class Solution:
         return dfs(root, 0)
 
 
+from collections import deque
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
         if not root:

@@ -25,6 +25,7 @@ class Solution:
         return dfs(root)
 
  
+from collections import deque
 class Solution:
     def removeLeafNodes(self, root: Optional[TreeNode], target: int) -> Optional[TreeNode]:
 

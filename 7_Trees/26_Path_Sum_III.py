@@ -5,7 +5,6 @@ class TreeNode:
         self.left = left
         self.right = right
 
-
 class Solution:
     def pathSum(self, root, targetSum):
 
@@ -19,6 +18,7 @@ class Solution:
         
             if not node:
                 return
+
             currentSum += node.val
 
             self.count += prefixSum.get(currentSum - targetSum, 0)
